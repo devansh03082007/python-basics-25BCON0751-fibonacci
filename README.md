@@ -1,31 +1,24 @@
 # fibonacci
 this is a  python program to find any fibonacci series for any number
+
 # Fibonacci Series Generator
 
-A simple Python program that generates the first n numbers of the Fibonacci sequence.
+A Python program that prints the first n numbers of the Fibonacci sequence.
 
 ## Description
 
-This project provides a lightweight command-line tool for generating the Fibonacci series. The `fibonacci.py` script prompts the user for the number of terms, validates the input, and prints the series as a list. It is a clean, beginner-friendly example of iterative problem solving in Python.
-
-Each number in the Fibonacci sequence is the sum of the two before it, starting from 0 and 1:
-
-```
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
-```
+`fibonacci.py` prompts the user for the number of terms and prints the Fibonacci series as a list. Each number is the sum of the two before it, starting from 0 and 1.
 
 ## Features
 
 - Generates the first n Fibonacci numbers
 - Iterative implementation (no recursion depth limits)
-- Input validation for invalid and negative values
 - Supports very large terms using Python's built-in big integers
-- Importable as a module
 - No external dependencies
 
 ## Requirements
 
-- Python 3.6 or higher
+- Python 3
 
 ## Installation
 
@@ -51,15 +44,7 @@ Run the script from your terminal:
 python fibonacci.py
 ```
 
-Enter the number of terms when prompted.
-
-To use the function in your own code:
-
-```python
-from fibonacci import fibonacci
-
-print(fibonacci(10))  # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-```
+Enter a whole number when prompted. The program prints the series.
 
 ## Example
 
@@ -81,13 +66,5 @@ How many terms? 0
 .
 ├── fibonacci.py
 ├── README.md
-└── LICENSE
+└── audit.md
 ```
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome. Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
